@@ -1,0 +1,26 @@
+/*Name : Prateek sinha
+class : ENTC(A3)
+Prn : 24070123077
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter the value of n: " << endl;
+    cin >> n;
+
+    int total = 0;
+    for (int i = 1; i <= n; i++) {
+        total += i;
+    }
+
+    cout << "Sum of first " << n << " natural numbers = " << total << endl;
+    return 0;
+}
+/*Output:-
+Enter the value of n: 
+5
+Sum of first 5 natural numbers = 15
+*/
